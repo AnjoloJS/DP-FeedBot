@@ -3,8 +3,7 @@ Use Tampermonkey to run script
 
 Use different browser from the one you use to Play
  - Don't login, don't play
- 
-Keep new browser at "About" game's page
+ - Keep it at "About" game's page
 
 # Screenshot
 ![Example](https://repository-images.githubusercontent.com/289476658/c204c880-e488-11ea-9213-3d9a1cd974da?raw=true "Example")

@@ -20,3 +20,9 @@ How to install a script: https://www.tampermonkey.net/faq.php#Q102
 
 # IMPORTANT
 Replace "WEBHOOK URL HERE" (inside script.js) with your own.
+
+Bot/Script will run only on the following pages: (to avoid repeated/bug messages)
+  - https://digimonpets.com.br/sobre
+  - https://digimonpets.com.br/usuario_cadastro
+  - https://digimonpets.com.br/usuario_entrar
+  - https://digimonpets.com.br/inicio

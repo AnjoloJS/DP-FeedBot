@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Digimon Pets - Feed Bot
 // @namespace    https://github.com/AnjoloJS/DP-FeedBot
-// @version      0.1
+// @version      0.2
 // @description  Simple WebHook discord bot for Digimon Pets Online world's feed
 // @author       AnjoloJS
 // @match        https://digimonpets.com.br/sobre
@@ -40,7 +40,7 @@
 
     setTimeout(function(){
         var lastDigiFeed = sessionStorage.getItem('lastDigiFeed'); //get last stored feed
-        var feed = document.querySelector("#newsbar > div > marquee > b").innerText
+        var feed = document.querySelector("#DigimundoFeed").innerHTML.replace(/<[^>]*>?/gm, '')
         if(lastDigiFeed != feed) { //ignore repeated feeds
             sessionStorage.setItem('lastDigiFeed', feed) //also store last feed, and keep after refresh page
             if (feed.includes('Black Trader')) feed = `@here - **[TRADER]** ` + feed //feed about Trader, use mention @here

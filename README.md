@@ -1,11 +1,10 @@
 # Recommended
 Use Tampermonkey to run script
 
-If you're using chrome
-
- 1. create new user;
+Use different browser from the one you use to Play
+ - Don't login, don't play
  
- 2. dont login, keep at homepage.
+Keep new browser at "About" game's page
 
 # Screenshot
 ![Example](https://repository-images.githubusercontent.com/289476658/c204c880-e488-11ea-9213-3d9a1cd974da?raw=true "Example")

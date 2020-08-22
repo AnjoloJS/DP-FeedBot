@@ -19,4 +19,4 @@ How to install a script: https://www.tampermonkey.net/faq.php#Q102
 
 
 # IMPORTANT
-Replace "WEBHOOK URL HERE" with your own.
+Replace "WEBHOOK URL HERE" (inside script.js) with your own.
